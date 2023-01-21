@@ -1,0 +1,10 @@
+{
+  "name": "tugas-ekonomi-pbb",
+  "version": "1.0.0",
+  "description": "Tugas ekonomi bu asih menghitung pajak bumi dan bangunan tanggal 19 Januari 2023",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Ezra Khairan Permana"
+}
