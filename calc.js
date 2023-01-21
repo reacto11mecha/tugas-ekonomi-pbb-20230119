@@ -53,11 +53,11 @@ const generateString = (njopStuffs) => {
 
   const mergedNjopThing = `${constructedNJOPString.join("\n")}\n${"=".repeat(
     longetStrNjopConstructed
-  )} +\n\t\t\t\t\t  Rp ${njopTerhitung.terakumulasi.toLocaleString(
+  )} +\n\t\t\t\t  Rp ${njopTerhitung.terakumulasi.toLocaleString(
     "id-ID"
-  )}\n\t\t\t\t\t  Rp ${NJOPTKP_CONSTANT.toLocaleString("id-ID")}\n${"=".repeat(
+  )}\n\t\t\t\t  Rp ${NJOPTKP_CONSTANT.toLocaleString("id-ID")}\n${"=".repeat(
     longetStrNjopConstructed
-  )} -\n\t\t\t\t\t  Rp ${njopTerhitung.njopkp.toLocaleString("id-ID")}`;
+  )} -\n\t\t\t\t  Rp ${njopTerhitung.njopkp.toLocaleString("id-ID")}`;
 
   const constructedPBBString = `= Rp ${njopTerhitung.njopkp.toLocaleString(
     "id-ID"
