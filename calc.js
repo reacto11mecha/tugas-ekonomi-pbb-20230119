@@ -61,9 +61,9 @@ const generateString = (njopStuffs) => {
 
   const constructedPBBString = `= Rp ${njopTerhitung.njopkp.toLocaleString(
     "id-ID"
-  )} x 0.5% * ${
+  )} x 0.5% x ${
     njopTerhitung.multiplierSetelahTerhitung === 0.4 ? "40%" : "20%"
-  }\n= ${hasilPBB.firstStep.toLocaleString("id-ID")} * ${
+  }\n= ${hasilPBB.firstStep.toLocaleString("id-ID")} x ${
     njopTerhitung.multiplierSetelahTerhitung === 0.4 ? "40%" : "20%"
   }\n= Rp ${hasilPBB.lastStep.toLocaleString("id-ID")}`;
 
